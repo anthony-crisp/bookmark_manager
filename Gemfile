@@ -9,6 +9,7 @@ gem 'sinatra'
 gem 'selenium-webdriver'
 
 group :test do
+  gem 'database_cleaner'
   gem 'capybara'
   gem 'rspec'
   gem 'rubocop'
